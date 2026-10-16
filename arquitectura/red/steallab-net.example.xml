@@ -1,0 +1,9 @@
+<network>
+  <name>StealLab-Net</name>
+  <bridge name='virbr-steal' stp='on' delay='0'/>
+  <ip address='10.10.10.1' netmask='255.255.255.0'>
+    <dhcp>
+      <range start='10.10.10.100' end='10.10.10.200'/>
+    </dhcp>
+  </ip>
+</network>
